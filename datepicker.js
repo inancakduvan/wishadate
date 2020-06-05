@@ -33,6 +33,7 @@ const monthsNames = {
 }
 
 const daysNames = {
+    "-1": "Sun",
     0: "Mon",
     1: "Tue",
     2: "Wed",
@@ -60,187 +61,187 @@ function wishadate(wishadateConfig) {
                     </div> \
                 </div> \
                 <div class="wishadate-days"> \
-                    <div class="wishadate-days-item wishadate-days-item-active" data-day="1" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item wishadate-days-item-active" data-day="1" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">1</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="2" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="2" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">2</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="3" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="3" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">3</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="4" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="4" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">4</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="5" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="5" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">5</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="6" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="6" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">6</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="7" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="7" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">7</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="8" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="8" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">8</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="9" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="9" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">9</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="10" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="10" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">10</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="11" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="11" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">11</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="12" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="12" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">12</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="13" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="13" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">13</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="14" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="14" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">14</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="15" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="15" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">15</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="16" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="16" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">16</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="17" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="17" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">17</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="18" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="18" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">18</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="19" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="19" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">19</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="20" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="20" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">20</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="21" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="21" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">21</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="22" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="22" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">22</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="23" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="23" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">23</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="24" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="24" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">24</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="25" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="25" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">25</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="26" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="26" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">26</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="27" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="27" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">27</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="28" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="28" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">28</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="29" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="29" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">29</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="30" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="30" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">30</div> \
                             <div class="wishadate-days-name">Tue</div> \
                         </div> \
                     </div> \
-                    <div class="wishadate-days-item" data-day="31" onclick="setDate(event)"> \
+                    <div class="wishadate-days-item" data-day="31" onclick="setDate(event,wishadateConfig)"> \
                         <div class="wishadate-days-num"> \
                             <div class="wishadate-days-num-text">31</div> \
                             <div class="wishadate-days-name">Tue</div> \
@@ -253,6 +254,7 @@ function wishadate(wishadateConfig) {
 
     // Set defaults
     window.addEventListener("load", function () {
+
         const date = new Date();
         const day = date.getDay();
         const month = date.getMonth();
@@ -331,12 +333,15 @@ function wishadate(wishadateConfig) {
 }
 
 // Set Date
-function setDate(wishadateConfig) {
+function setDate(event, wishadateConfig) {
     const day = event.target.getAttribute("data-day");
     const month = parseInt(document.getElementById("wishadate-month").getAttribute("data-month") - 1);
     const year = document.getElementById("wishadate-year").innerHTML;
+    const hour = new Date().getHours();
+    const minutes = new Date().getMinutes();
+    const seconds = new Date().getSeconds();
 
-    const date = new Date(year, month, day);
+    const date = new Date(year, month, day, hour, minutes, seconds);
 
     dayDefault = day;
 
@@ -373,8 +378,10 @@ function setDate(wishadateConfig) {
     const dayName = date.getUTCDay();
     document.querySelector(".wishadate-days-num-active").classList.remove("wishadate-days-num-active");
     event.target.childNodes[1].classList.add("wishadate-days-num-active");
-    document.querySelector(".wishadate-days-num-active .wishadate-days-name").innerHTML = daysNames[dayName];
+    document.querySelector(".wishadate-days-num-active .wishadate-days-name").innerHTML = daysNames[dayName - 1];
 
+
+    console.log(dayName)
     wishadateCallback(date);
 }
 

@@ -140,3 +140,7 @@
 .wishadate-days-num-active .wishadate-days-name {
     display: block;
 }
+
+.wishadate-days-item-inactive .wishadate-days-name {
+    display: none;
+}

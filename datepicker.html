@@ -17,15 +17,23 @@
     <div id="wishadate"></div>
 
     <button id="wishadate-trigger">Wish a Date</button>
+    <div id="selected-date"></div>
 
 
     <script src="datepicker.js"></script>
     <script>
+        const wishadateConfig = {
+            background: "#3C84FC",
+            text: "#fff"
+        };
+
         function wishadateCallback(date) {
             console.log(date)
+
+            document.getElementById("selected-date").innerHTML = date;
         }
 
-        wishadate();
+        wishadate(wishadateConfig);
     </script>
 </body>
 
