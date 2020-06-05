@@ -381,7 +381,6 @@ function setDate(event, wishadateConfig) {
     document.querySelector(".wishadate-days-num-active .wishadate-days-name").innerHTML = daysNames[dayName - 1];
 
 
-    console.log(dayName)
     wishadateCallback(date);
 }
 
