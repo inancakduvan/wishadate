@@ -81,7 +81,20 @@
 }
 
 .wishadate-header-left, .wishadate-header-right {
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
     cursor: pointer;
+}
+
+.wishadate-header-left {
+    border-left: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.wishadate-header-right {
+    border-right: 4px solid #000;
+    border-top: 4px solid #000;
 }
 
 .wishadate-days {

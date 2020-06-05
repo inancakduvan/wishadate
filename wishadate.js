@@ -50,14 +50,12 @@ function wishadate(wishadateConfig) {
             <div class="wishadate-body" > \
                 <div class="wishadate-header"> \
                     <div class="wishadate-header-left" onclick="wishadateBack()"> \
-                        <i class="fas fa-chevron-left"></i> \
                     </div> \
                     <div class="wishadate-header-mid"> \
                         <span id="wishadate-month" data-month="6">June</span> / \
                     <span id="wishadate-year">2020</span> \
                     </div> \
                     <div class="wishadate-header-right" onclick="wishadateForth()"> \
-                        <i class="fas fa-chevron-right"></i> \
                     </div> \
                 </div> \
                 <div class="wishadate-days"> \
@@ -283,12 +281,18 @@ function wishadate(wishadateConfig) {
 
             if (wishadateConfig.text) {
                 daysNum[dayDefault - 1].style.color = wishadateConfig.text;
+                document.querySelector(".wishadate-header-left").style.borderColor = wishadateConfig.text;
+                document.querySelector(".wishadate-header-right").style.borderColor = wishadateConfig.text;
             } else {
                 daysNum[dayDefault - 1].style.color = "#000";
+                document.querySelector(".wishadate-header-left").style.borderColor = "#000";
+                document.querySelector(".wishadate-header-right").style.borderColor = "#000";
             }
         } else {
             daysNum[dayDefault - 1].style.background = "#d7a385";
             daysNum[dayDefault - 1].style.color = "#000";
+            document.querySelector(".wishadate-header-left").style.borderColor = wishadateConfig.text;
+            document.querySelector(".wishadate-header-right").style.borderColor = wishadateConfig.text;
         }
 
         const dayName = new Date(year, month, day).getUTCDay();
@@ -314,6 +318,8 @@ function wishadate(wishadateConfig) {
 
                 if (wishadateConfig.text) {
                     document.querySelector(".wishadate-header").style.color = wishadateConfig.text;
+                    document.querySelector(".wishadate-header-left").style.borderColor = wishadateConfig.text;
+                    document.querySelector(".wishadate-header-right").style.borderColor = wishadateConfig.text;
                 }
             }
 
