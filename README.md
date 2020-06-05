@@ -1,5 +1,9 @@
 # Wisha Date
 
+<p> Wisha Date is a customizable datepicker which you can initialize with only one function. </p>
+<p>Here is a demo: </p>
+<a href="https://inancakduvan.github.io/wishadate/">Visit Demo</a>
+
 <h1>Import with CDN</h1>
 <h3>Add CSS into head tags</h3>
 <pre><span><</span>link rel="stylesheet" href="https://res.cloudinary.com/dnjvyciqt/raw/upload/v1591388058/wishadate-min_bfmfxz.css" /></pre>
@@ -43,3 +47,5 @@
 
 <span><</span>/html>
 </pre>
+
+<h3>Yes I'm too lazy to prepare a good documentation but it is really easy :) </h3>
