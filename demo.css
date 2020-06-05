@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;600&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kodchasan', sans-serif;
+    background: #CCE4FC;
+    min-height: 100vh;
+}
+
+#wishadate-trigger {
+    padding: 10px 30px;
+    background: #fff;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    font-size: 32px;
+    outline: none;
+}
